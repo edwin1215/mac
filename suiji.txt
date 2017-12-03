@@ -1,0 +1,17 @@
+<h1>MAC</h1>
+
+<h2>显示所有隐藏文件：</h2>
+
+​	defaults write com.apple.finder AppleShowAllFiles TRUE
+
+<h2>隐藏所有隐藏文件：</h2>
+
+​	defaults write com.apple.finder AppleShowAllFiles NO
+
+<h2>生效：</h2>
+
+​	killall Finder
+
+<h2>显示所有文件：</h2>
+
+​	ls -all
